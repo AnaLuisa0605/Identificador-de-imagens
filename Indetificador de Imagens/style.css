@@ -1,0 +1,92 @@
+body{
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(90deg,#DDA0DD 0%,#F08080 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+    width: 50%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    margin:50px;
+    background: palevioletred;
+
+}
+#fonte{
+    font-family: 'Righteous', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+#titulo{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+}
+.container{
+    background-color: #F08080 ;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    width: 70%;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+#tipo{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#visCamera{
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    font-family:'Righteous', cursive;
+}
+#botao1{
+    color: white;
+    display: inline;
+    margin-left: 200px;
+    background-color: #DDA0DD;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+}
+#botao2{
+    color: white;
+    display: inline;
+    margin-left: 200px;
+    background-color: #DDA0DD;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+}
+#cameraCentro{
+    display: flex;
+    justify-content: center;
+}
+#label{
+    font-family:'Roboto Condensed', sans-serif;
+}
